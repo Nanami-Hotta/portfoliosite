@@ -5,14 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
+
 body {
-  font-family: "futura-pt", sans-serif;
+  font-family: "futura-pt", "Yu Gothic", sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1.8;
@@ -20,7 +15,7 @@ body {
   background: #f0f0f0;
 }
 
-#fh5co-wrapper {
+/* #fh5co-wrapper {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -29,17 +24,17 @@ body {
   width: 100%;
   height: 100%;
   overflow-y: hidden;
-}
+} */
 
 a {
-  color: #FFA400;
+  /* color: #1d2088; */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline;
-  color: #1d2088;
+  /* color: #1d2088; */
 }
 a:focus, a:active {
   outline: none;
@@ -208,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   span {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   #fh5co-main-nav ul {
@@ -703,8 +698,6 @@ input[type="text"] {
   .about-container {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .about-container h2 {
@@ -730,6 +723,10 @@ input[type="text"] {
 
   .page-heading h3 {
     font-size: 15px;
+  }
+
+  .page-container p {
+    font-size: 12px;
   }
 }
 
