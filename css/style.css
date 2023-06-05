@@ -159,6 +159,10 @@ h1, h2, h3, h4, h5, h6 {
    margin-bottom: 50px;
  }
 
+ .page-container video{
+   margin-bottom: 50px;
+ }
+
  .video {
    position: relative;
    padding-bottom: 56.25%;
